@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# This script serves to create double and quadruple-sized
+# versions of the text representation of console fonts after
+# they've been dumped via 'psfd', found in the psftools package.
+#
+# Author: mhoye <mhoye@bespokeio.com>
+# Repo: https://github.com/mhoye/128x64
+# License: GPL2
+
 echo $1
 
 fn=$1
